@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-image: url(assets2/bg.svg);
+}
+.main {
+    text-align: center;
+    font-size: 20px;
+}
+.tweetCountCss {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#tweetBtn {
+    padding: 20px;
+    border: none;
+    color: azure;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(142, 142, 151);
+    font-family: 'Neucha', cursive;
+    border-radius: 12px;
+}
+#tweetBtn:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
