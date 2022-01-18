@@ -8,12 +8,18 @@ body {
     font-size: 35px;
     text-align: center;
 }
+.row {
+    display: flex;
+    flex-direction: flex;
+  }
 .main h3 {
     font-size: 18px;
 }
 .we1 {
+    display: table-column;
     margin: auto;
-    width: 10%;
+    width: 16%;
+    text-align: center;
     margin-left: 10%;
     margin-right: auto;
     border: 3px solid rgb(201, 212, 201);
@@ -31,6 +37,36 @@ body {
     background-color: rgb(107, 107, 126);
 }
 #we1:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+#we2 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we2:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+#we3 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we3:hover {
     transition: 0.90s;
     background-color: rgb(83, 83, 94);
 }
@@ -64,9 +100,10 @@ a {
         font-size: 18px;
     }
     .we1 {
+        display: block;
         margin: auto;
-        width: 50%;
-        margin-left: auto;
+        width: 60%;
+        margin-left: 10%;
         margin-right: auto;
         border: 3px solid rgb(201, 212, 201);
         padding: 10px;
@@ -83,6 +120,36 @@ a {
         background-color: rgb(107, 107, 126);
     }
     #we1:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we2 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we2:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we3 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we3:hover {
         transition: 0.90s;
         background-color: rgb(83, 83, 94);
     }

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+    background-color: azure;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#date {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    font-size: 35px;
+}
+#txt {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.head {
+    font-size: 50px;
+    text-align: center;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
