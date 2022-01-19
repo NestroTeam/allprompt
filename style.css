@@ -11,14 +11,14 @@ body {
 .row {
     display: flex;
     flex-direction: flex;
-  }
+}
 .main h3 {
     font-size: 18px;
 }
 .we1 {
     display: table-column;
     margin: auto;
-    width: 16%;
+    width: 13%;
     text-align: center;
     margin-left: 10%;
     margin-right: auto;
@@ -90,7 +90,8 @@ a {
     @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
     body {
         font-family: 'Balsamiq Sans', cursive;
-        background-image: url(assets/bg.svg);
+        background-color: aliceblue;
+        background-image: none;
     }
     .main {
         font-size: 35px;
@@ -99,10 +100,12 @@ a {
     .main h3 {
         font-size: 18px;
     }
+    .row {
+        display: grid;
+    }
     .we1 {
-        display: block;
         margin: auto;
-        width: 60%;
+        width: 70%;
         margin-left: 10%;
         margin-right: auto;
         border: 3px solid rgb(201, 212, 201);
