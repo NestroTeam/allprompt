@@ -172,3 +172,87 @@ a {
         text-decoration: none;
     }
 }
+@media all and (min-width: 1080px) {
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        background-color: rgb(217, 228, 228);
+        background-image: none;
+    }
+    .main {
+        font-size: 40px;
+        text-align: center;
+    }
+    .main h3 {
+        font-size: 25px;
+    }
+    .we1 {
+        margin: auto;
+        width: 15%;
+        margin-left: 8%;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
+    }
+    #we1 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we1:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we2 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we2:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we3 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we3:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        font-size: 28px;
+        width: 100%;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        font-family: 'Neucha', cursive;
+        text-align: center;
+    }
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+}
