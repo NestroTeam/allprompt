@@ -177,15 +177,15 @@ a {
     @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
     body {
         font-family: 'Balsamiq Sans', cursive;
-        background-color: rgb(217, 228, 228);
+        background-color: azure;
         background-image: none;
     }
     .main {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
     .main h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .we1 {
         margin: auto;
