@@ -177,7 +177,7 @@ a {
     @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
     body {
         font-family: 'Balsamiq Sans', cursive;
-        background-color: azure;
+        background-color: rgb(255, 252, 223);
         background-image: none;
     }
     .main {
