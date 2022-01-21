@@ -85,19 +85,7 @@ input[type=text] {
     background-color: rgb(83, 83, 94);
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    font-size: 20px;
-    width: 100%;
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    font-family: 'Neucha', cursive;
     text-align: center;
-}
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
 }
 @media all and (max-width: 800px) {
     @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
@@ -116,6 +104,7 @@ a {
     }
     .row {
         display: grid;
+        row-gap: 25px;
     }
     .we1 {
         margin: auto;
@@ -170,16 +159,11 @@ a {
         transition: 0.90s;
         background-color: rgb(83, 83, 94);
     }
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        font-size: 20px;
-        width: 100%;
-        background-color: transparent;
-        color: rgb(0, 0, 0);
-        font-family: 'Neucha', cursive;
+    footer {
         text-align: center;
+        padding: 3px;
+        background-color: transparent;
+        color: white;
     }
     a {
         color: rgb(0, 0, 0);
