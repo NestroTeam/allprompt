@@ -6,3 +6,7 @@ document.getElementById("we2").onclick = function ()
 {
     window.location.href="pages/time.html"
 };
+document.getElementById("we3").onclick = function ()
+{
+    window.location.href="pages/error.html"
+};
