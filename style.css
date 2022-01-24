@@ -11,6 +11,7 @@ body {
 .row {
     display: flex;
     flex-direction: flex;
+    margin-bottom: 30px;
 }
 .main h3 {
     font-size: 18px;
@@ -35,6 +36,16 @@ input[type=text] {
     width: 13%;
     text-align: center;
     margin-left: 10%;
+    margin-right: auto;
+    border: 3px solid rgb(201, 212, 201);
+    padding: 10px;
+}
+.we2 {
+    display: table-column;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    margin-left: 8%;
     margin-right: auto;
     border: 3px solid rgb(201, 212, 201);
     padding: 10px;
@@ -81,6 +92,21 @@ input[type=text] {
     background-color: rgb(107, 107, 126);
 }
 #we3:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+#we4 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we4:hover {
     transition: 0.90s;
     background-color: rgb(83, 83, 94);
 }
