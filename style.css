@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-image: url(assets/bg.svg);
+}
+.main {
+    font-size: 35px;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-direction: flex;
+    margin-bottom: 20px;
+}
+.main h3 {
+    font-size: 18px;
+}
+input[type=text] {
+    width: 72%;
+    padding: 10px 20px;
+    margin: 1%px 0;
+    display: inline-block;
+    text-decoration: inherit;
+    font-size: 15px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: black;
+    border-radius: 4px;
+    box-direction: left;
+}
+.we1 {
+    display: table-column;
+    margin: auto;
+    width: 13%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 3px solid rgb(201, 212, 201);
+    padding: 10px;
+}
+.we2 {
+    display: table-column;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: auto;
+    border: 3px solid rgb(201, 212, 201);
+    padding: 10px;
+}
+#we1 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we1:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+#we2 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we2:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+#we3 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we3:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+#we4 {
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: azure;
+    cursor: pointer;
+    font-family: 'Neucha', cursive;
+    width: 100px;
+    background-color: rgb(107, 107, 126);
+}
+#we4:hover {
+    transition: 0.90s;
+    background-color: rgb(83, 83, 94);
+}
+.footer {
+    text-align: center;
+}
+@media all and (max-width: 800px) {
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        background-color: aliceblue;
+        background-image: none;
+    }
+    .main {
+        font-size: 35px;
+        text-align: center;
+    }
+    .main h3 {
+        font-size: 18px;
+    }
+    .row {
+        display: grid;
+        row-gap: 25px;
+    }
+    .we1 {
+        margin: auto;
+        width: 70%;
+        margin-left: 10%;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
+    }
+    #we1 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we1:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we2 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we2:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we3 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we3:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color: transparent;
+        color: white;
+    }
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+}
+@media all and (min-width: 1080px) {
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        background-color: rgb(255, 252, 223);
+        background-image: none;
+    }
+    .main {
+        font-size: 30px;
+        text-align: center;
+    }
+    .main h3 {
+        font-size: 20px;
+    }
+    .we1 {
+        margin: auto;
+        width: 15%;
+        margin-left: 8%;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
+    }
+    #we1 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we1:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we2 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we2:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    #we3 {
+        border-radius: 12px;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        color: azure;
+        cursor: pointer;
+        font-family: 'Neucha', cursive;
+        width: 100px;
+        background-color: rgb(107, 107, 126);
+    }
+    #we3:hover {
+        transition: 0.90s;
+        background-color: rgb(83, 83, 94);
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        font-size: 28px;
+        width: 100%;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        font-family: 'Neucha', cursive;
+        text-align: center;
+    }
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 23px;
+    }
+}
