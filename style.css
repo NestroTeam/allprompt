@@ -40,16 +40,6 @@ input[type=text] {
     border: 3px solid rgb(201, 212, 201);
     padding: 10px;
 }
-.we2 {
-    display: table-column;
-    margin: auto;
-    width: 15%;
-    text-align: center;
-    margin-left: 8%;
-    margin-right: auto;
-    border: 3px solid rgb(201, 212, 201);
-    padding: 10px;
-}
 #we1 {
     border-radius: 12px;
     padding: 10px;
