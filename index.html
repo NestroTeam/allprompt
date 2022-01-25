@@ -15,9 +15,15 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="scrollbar scrollbar-primary">
-            <div class="force-overflow"></div>
-          </div>
+        <div class="loader_bg">
+            <div class="loader"></div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 3000);
+    </script>
         <div class="main">
             <h1>Allprompt!</h1>
             <h3>Simple online tools and more!</h3>
@@ -50,11 +56,13 @@
             <div class="we1">
                 <h3>Spell Check</h3>
                 <p>Coming Soon!</p>
+                <button id="error">Error</button>
             </div>
             
             <div class="we1">
                 <h3>DesireOS</h3>
                 <p>Coming Soon!</p>
+                <button id="error">Error</button>
             </div>
         </div>
         <footer>

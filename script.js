@@ -8,5 +8,9 @@ document.getElementById("we2").onclick = function ()
 };
 document.getElementById("we3").onclick = function ()
 {
+    window.location.href="pages/minecraft.html"
+};
+document.getElementById("error").onclick = function ()
+{
     window.location.href="pages/404.html"
 };
