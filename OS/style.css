@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('b.svg'); 
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.main p{
+    color: black;
+    margin: 14px;
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fold {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.fold:hover {
+    transition: 0.3s;
+}
+.taskbar{
+    background-color: #292929;
+    width: 100%;
+    gap: 13px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: left;
+}
+
+.startmenu{
+    position: absolute; 
+    bottom: -655px;
+    width: 100%;
+    text-align: left;
+    transition: all 0.4s ease-out; 
+}
+
+.startmenu img{
+    border-radius: 12px;
+}
+
+.xp{
+    position: absolute; 
+    bottom: -655px;
+    text-align: left;
+}
+
+.xp img{
+    border-radius: 12px;
+    display: block;
+    margin-left: 500px;
+    margin-right: auto;
+}
+.termi{
+    position: absolute; 
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 100px;
+}
+
+.termi img{
+    border-radius: 12px;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+.icons{
+    color: white;
+}
+.trash p{
+    margin: 6px;
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
