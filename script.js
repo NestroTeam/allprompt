@@ -14,3 +14,7 @@ document.getElementById("error").onclick = function ()
 {
     window.location.href="pages/404.html"
 };
+document.getElementById("we4").onclick = function ()
+{
+    window.location.href="OS/desire.html"
+};
