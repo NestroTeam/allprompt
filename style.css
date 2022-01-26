@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Balsamiq Sans', cursive;
-    background-image: url(assets/bg.svg);
+    background-image: none;
 }
 .loader_bg{
     position: fixed;
@@ -16,7 +16,6 @@ body {
 }
 .loader{
     border: 0 soild transparent;
-    border-radius: 50%;
     width: 150px;
     height: 150px;
     position: absolute;
@@ -25,8 +24,8 @@ body {
 }
 .loader:before, .loader:after{
     content: '';
-    border: 1em solid #15e4ff;
-    border-radius: 10px;
+    border: 1em solid #0ed8f3;
+    border-radius: 8px;
     width: inherit;
     height: inherit;
     position: absolute;
@@ -36,7 +35,7 @@ body {
     opacity: 0;
 }
 .loader:before{
-    animation-delay: .3s;
+    animation-delay: .1s;
 }
 @keyframes loader{
     0%{
@@ -47,7 +46,7 @@ body {
         opacity: 1;
     }
     100%{
-        transform: scale(1);
+        transform: scale(0.7);
         opacity: 0;
     }
 }
